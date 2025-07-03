@@ -3,3 +3,5 @@
   - [Introduction to ML](/LLMed/IntroductionToML.md)
   - [AI Dumps](/LLMed/AIDump.md)
   - [Text Processing Utils](/LLMed/TextProcessingUtils.md)
+  - [AWK Guide](/LLMed/AWKGuide.md)
+  - [Grep Guide](/LLMed/GrepGuide.md)
