@@ -1,0 +1,22 @@
+Machine Learning 
+- Statistical Pattern recogintion 
+- Algorithm ( called ML algo) Trained on set of data called training data 
+- Once trained its called model 
+- Model is then tested with new data called unseen data 
+- Model intially gives wrong result 
+- the loss (difference in actual output and expected output ) is fed 
+to model to tweak it and correct its course 
+- Model needs to be trained again and again to avoid 
+outdated training data 
+- Label target or y vairables ?? 
+- Models are garbage in garbage out -> Training data quality is most important
+- Different type of models 
+    - Classification 
+    - Predictive 
+    - Cluster 
+- Symbolic vs subsymbolic AI 
+- Back propogation and neural networks 
+- Transformers 
+- KNN vs CNN ?? 
+
+Supervise vs Unsupervise Learnings

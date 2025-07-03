@@ -1,0 +1,59 @@
+RAG - Retrievel Augmented Generation 
+- Grant access to external knowledge base
+- Reduces Hallucinations 
+- Relies on embedding  relationships between part of text
+- Use semantic search for summarizing 
+
+Embedding
+- Embeddings models are text transformed to
+ vector represented in  dimension spaces 
+- uses machine learning models 
+- ml models are trained on high amount of text 
+to create embeddings
+- similar vectors are close in high dimensional spaces
+- eg: word2vec , ada by open AI and embed v3
+- captures more semantic relationships
+
+Similarity Score 
+- Embeddings comparison is only useful if the same space 
+- Similarity score calculated by:
+            - consine Similarity
+            - Inner Product 
+            - L2 Square 
+
+Similarity Search Indexing 
+ - compares query vector and every single vector in db 
+ - Similarity search uses Indexing to improve efficiency 
+  by grouping similar vectors 
+- enable search to focus on smaller area where embedding exists 
+- common indexing techinque
+- inverted file indics and hirarchial navigable small world 
+
+
+Vector Database 
+- VDB interaction with embedding 
+- manages storage retrieval  and querying 
+- chorma is oss vdb 
+
+Document Chunking 
+- Chunck length affect context  
+- various method 
+        - fixed size 
+        - dynamic 
+        - advanced 
+
+Langchain 
+- document over lapping
+- Enhace chunks with metadata to provide ciatations and sources 
+- implement version 
+- summarize llm 
+- explore advanced LLM such as keyboard extraction 
+
+
+Prompt engineering consideration for RAG 
+- Include chunk metadata to provide context 
+- XML Formatting works better but not neccessary 
+- Dos instead of donts , LLM performs bette when given 
+positive direction 
+- Tweak and test 
+- clear instructions 
