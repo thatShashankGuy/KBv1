@@ -1,0 +1,44 @@
+Machine Learning
+- Definition: A branch of artificial intelligence focused on statistical pattern recognition and automatic inference of predictive models from data.
+- Workflow:
+    1. Data collection: Assemble a dataset and partition into training, validation and test sets.
+    2. Training: Apply a learning algorithm to the training set to adjust model parameters.
+    3. Model: The trained artifact (with fixed parameters) ready for inference.
+    4. Evaluation: Run the model on unseen data (validation/test set) and compute performance metrics (e.g., accuracy, precision, recall, RMSE).
+    5. Optimization loop: Compute a loss function (difference between predicted and true labels); propagate gradients (e.g., via backpropagation in neural networks) to update parameters. Use the validation set for hyperparameter tuning and early stopping to prevent overfitting.
+    6. Deployment & monitoring: Serve the model in production; monitor for data drift and model degradation, retraining periodically on updated data.
+- Data & Variables:
+    - Features (input variables, X)
+    - Target/Label (response variable, y) in supervised tasks
+    - Unlabeled data for unsupervised tasks
+- “Garbage in, garbage out”: Model quality critically depends on data quality, feature engineering, and label correctness.
+- Learning Paradigms:
+    - Supervised learning: Learns from labeled examples (classification, regression).
+    - Unsupervised learning: Discovers structure in unlabeled data (clustering, dimensionality reduction).
+    - Reinforcement learning: Learns policies via reward signals through interaction with an environment.
+- Task Categories:
+    - Classification: Assigns inputs to discrete classes (e.g., spam detection).
+    - Regression: Predicts continuous values (e.g., price forecasting).
+    - Clustering: Groups similar instances (e.g., customer segmentation).
+    - Dimensionality Reduction: Projects data into lower-dimensional space (e.g., PCA, t-SNE).
+- Model Families:
+    - Instance-based: k-Nearest Neighbors (KNN)
+    - Tree-based: Decision Trees, Random Forests, Gradient Boosted Trees
+    - Kernel methods: Support Vector Machines (SVM)
+    - Neural networks:
+        - Feedforward (MLP)
+        - Convolutional Neural Networks (CNN) for spatial data (images)
+        - Recurrent Neural Networks (RNN/LSTM/GRU) for sequential data
+        - Transformer architectures using self-attention for NLP and vision tasks
+- Symbolic vs. Subsymbolic AI:
+    - Symbolic: Explicit rules and logic (expert systems, knowledge graphs).
+    - Subsymbolic: Distributed representations learned from data (neural networks).
+- Model Maintenance:
+    - Monitor for concept drift and performance decay.
+    - Retrain or fine-tune on new data to maintain accuracy.
+    - Use continuous integration/continuous deployment (CI/CD) pipelines for safe updates.
+- Key Considerations:
+    - Overfitting vs. underfitting: balance model complexity and generalization.
+    - Cross-validation for robust performance estimates.
+    - Hyperparameter tuning (grid search, random search, Bayesian optimization).
+    - Explainability and fairness: interpret models and detect bias.
