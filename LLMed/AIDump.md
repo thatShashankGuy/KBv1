@@ -1,3 +1,6 @@
+--
+## April Dump
+--
 ## 🤖 AI Learning Notes: Generative vs Discriminative Models & Probabilistic vs Deterministic Nature
 
 ### 🔹 1. Discriminative Models
@@ -1121,3 +1124,68 @@ Input → [Masked Multi-Head Attention] → Add & Norm
 - The challenge now is **alignment, efficiency**, and **controlled deployment** of these powerful emergent capabilities.
 
 ---
+## May Dump
+
+---
+
+## 🧠 What is RAG (Retrieval-Augmented Generation)?
+
+**RAG** combines a language model (like GPT) with an external knowledge retrieval system to improve factual accuracy and relevance.
+
+Instead of only relying on what the model remembers from pretraining, RAG **actively pulls in fresh or domain-specific data** during the generation process.
+
+---
+
+### 🔍 How It Works (High-Level)
+
+1️⃣ **User Query** →
+
+A question or prompt comes in.
+
+2️⃣ **Retriever** →
+
+The system searches a knowledge base (documents, database, search index) to pull the top‑N relevant chunks.
+
+3️⃣ **Generator (LLM)** →
+
+The retrieved info + user query are fed together into the language model.
+
+4️⃣ **Final Answer** →
+
+The LLM generates a grounded response, using both its pretrained knowledge and the retrieved context.
+
+---
+
+### ⚙️ How To Use It
+
+✅ **Tools & Frameworks**
+
+- Use libraries like:
+    - Hugging Face’s `rag` pipelines
+    - LangChain (popular in Python)
+    - LlamaIndex (for indexing + retrieval)
+    - RAG APIs from cloud providers (OpenAI, Azure, etc.)
+
+✅ **Key Setup Steps**
+
+- Prepare or connect to a document store (e.g., Elasticsearch, Pinecone, FAISS, Weaviate).
+- Index your documents into embeddings.
+- When a user asks something:
+    - Convert the query to embedding.
+    - Retrieve top-matching docs.
+    - Feed docs + query into the LLM prompt.
+
+✅ **Common Use Cases**
+
+- Enterprise search bots
+- Domain-specific Q&A (e.g., legal, medical, technical)
+- Summarizing large internal knowledge bases
+- Keeping responses up-to-date (news, product catalogs)
+
+---
+
+### ⚠️ Things To Watch Out For
+
+- Bad retrieval = bad generation.
+- Needs careful evaluation for hallucination.
+- Scaling retrieval over large corpora requires good vector indexing.
