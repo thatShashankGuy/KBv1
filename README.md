@@ -4,11 +4,11 @@
 
 ## Repository Structure
 
-* **Originals/**
+* **[Originals](/Originals/)/**
 
   * Raw text files transcribed from my handwritten notes.
 
-* **LLMed/**
+* **[LLMed](/LLMed/)/**
 
   * The same notes, enhanced and polished using my custom GPT processing.
 
