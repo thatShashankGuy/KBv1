@@ -1,6 +1,4 @@
-Below is a comprehensive, at-a-glance guide to the core Unix text-processing utilities—what they do, key options, and common examples. Use it as a quick reference or learning aid.
-
----
+# Text Prcoessing Utils
 
 ## Contents
 
@@ -393,5 +391,3 @@ grep 'ERROR' server.log \
 * When performance matters, prefer specialized tools (e.g. `grep -F` vs. `grep`).
 * Test on small data before running destructive operations (e.g. `sed -i`, `rm`).
 * Combine `tee` to both view and save intermediate output.
-
-With these building blocks you can tackle nearly any text-processing task on the command line. Happy hacking!
