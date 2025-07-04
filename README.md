@@ -6,3 +6,4 @@
   - [AWK Guide](/LLMed/AWKGuide.md)
   - [Grep Guide](/LLMed/GrepGuide.md)
   - [RAG Starter Guide](/LLMed/RAGStarterGuide.mds)
+  - [RAG Starter Guide 2](/LLMed/RAGStarterGuide2.mds)
