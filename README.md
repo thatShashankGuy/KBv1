@@ -5,3 +5,4 @@
   - [Text Processing Utils](/LLMed/TextProcessingUtils.md)
   - [AWK Guide](/LLMed/AWKGuide.md)
   - [Grep Guide](/LLMed/GrepGuide.md)
+  - [RAG Starter Guide](/LLMed/RAGStarterGuide.mds)
