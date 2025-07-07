@@ -89,4 +89,39 @@ Unsupervised Learning
     clustering 
 
 
-Clustering
+Clustering:
+- Data is not labelled 
+- self discovering patterns 
+- most commonly used unsupervised learning 
+- objectives 
+    - similar data belong to same cluster 
+    - disimilar data belong to different cluster 
+
+Evaluaton cluster model 
+- elbow method 
+    - Find optimal number of cluster 
+- silhoutte score  [need more info] 
+    - silhoutte coffecient 
+                    - higher the point more likely the 
+                        point has been assign to correct cluster
+                    - +1 right cluster and -1 wrong cluster 
+    - Silhouttte coefficient calcuteas silhoutte score
+
+Traditional ML Algorithms 
+- Linear regression - regression algorithm
+- Logistical regression (note :this is classification algorithm and not regression as name suggests)
+- Decsion tree - can be used for regression and classification both 
+
+Decision tree
+- Have nodes 
+- algorithm construt the tree to make decisions 
+
+Ensemble learning - 
+- predictions from multiple base models are combined to improve final predictions 
+- Base models are also called weak learners 
+- Methos 
+    - Boosting 
+    - Bagging 
+    - Stacking 
+[need to read more on methods] 
+
