@@ -19,4 +19,74 @@ outdated training data
 - Transformers 
 - KNN vs CNN ?? 
 
-Supervise vs Unsupervise Learnings
+Supervise Learnings
+- Problem set of the form 
+y = f(x) where y is target and x is feature 
+- model trained on y value 
+- to improve model Param 
+- models tries to reverse engineers between x and y 
+- getting label data is important pre -processing setp to train models 
+- eg : 
+    Regression 
+    Classification
+    Image recogintion
+    sentimental Anyalyis 
+
+Regression: 
+    - Predicts continuous values 
+    - Cause and effect analysis
+    - Plot points in n-dimension space 
+    - draw lins for best fit 
+    eg: 
+        Prediction of milege by analysing car featues 
+        Hours of Study predict GPA 
+
+Cause and Effection of Regression 
+    - Best Fitted Line 
+    - A good model minimizes distance between the line and data points 
+    - difference between the observed value and predictive value of good model is small and unbiased 
+    - R^2 -> Statistical measurement of how close dat is to fitted Regression 
+    - o <= R^2 <= 1 
+    - R^2 is called coeffeicent of Determination or 
+        Percentage of variation in underlying data captured by Regression model
+
+Classification :
+    - Binary Classification ( classify between two like spam and ham email) 
+    - Multi class/category Classification( for more than two categories)
+    - every  output has a probability score 
+    - categories with highest probability is Prediction
+
+Evaluationg Classification : 
+    *** Need to read more on below topics*** 
+
+    eg for better explaination 
+    Classification of ham and spam  
+    actual value of ham - 120 and model prections 780
+    actual value of spam - 45 and model prections 120
+    actual value of spam - 
+    - Accuracy : 
+        Fraction of correct prediction of total prediction ( not always a good indication )
+        for above : 
+                780 + 120 / (780 + 55 + 45  + 120 ) = 0.9
+    - Precision : 
+        Fraction of positive identification that as correct 
+        Makes a category - > Ham ( actual emails ) Spam ( what we are trying to classify )
+        Predciton for ham = 1 (desirable category) 
+        and spam. = - 1 (un desirable category)
+
+        Precision of spam = 120/120 + 45 = .0727
+    - Recall : 
+        Of Positive data the Fraction that was correctly identify 
+            for category spam again 
+            recall of spam = 120/120 + 55 = 0.685
+
+
+Unsupervised Learning 
+- No label data 
+- More useful as most data of world is not labellled 
+- Model focuses on intrinsic patterns 
+- eg: 
+    clustering 
+
+
+Clustering
