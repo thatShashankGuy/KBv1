@@ -1,9 +1,17 @@
-# Table of Content 
-  - [RAG Foundations](/LLMed/RAGFoundation.md)
-  - [Introduction to ML](/LLMed/IntroductionToML.md)
-  - [AI Dumps](/LLMed/AIDump.md)
-  - [Text Processing Utils](/LLMed/TextProcessingUtils.md)
-  - [AWK Guide](/LLMed/AWKGuide.md)
-  - [Grep Guide](/LLMed/GrepGuide.md)
-  - [RAG Starter Guide](/LLMed/RAGStarterGuide.mds)
-  - [RAG Starter Guide 2](/LLMed/RAGStarterGuide2.mds)
+# Notes, Docs and References 
+---
+
+## Docs
+  - [AI Dump](/ai-dump.md)
+  - [AWK Guide](/awk-guide.md)
+  - [Azure Guide](/azure-guid.md)
+  - [Grep Guide](/grep-guide.md)
+  - [Intro To ML](/intro-to-ml.md)
+  - [RAG Foundation](/rag-foundation.md)
+  - [RAG Starter v1](/rage-starter-guide-v1.md)
+  - [RAG Starter v2](/rag-starter-guide-v2.md)
+  - [Text Processing](/text-processing-utils.md)
+
+  ## Rough Notes 
+  - [Intro to Ml](/rough-notes/IntroductionToML.txt)
+  - [RAG Notes](/rough-notes/RAGFoundation.txt)
